@@ -1,0 +1,9 @@
+[project]
+name = "before-recognition-sim"
+version = "0.1.0"
+description = "A xenial first-contact game: latent system types met under uncertainty about boundary, channel and valence; three encounter policies compared on identification, harm, retained option space and regret; reversible-inquiry dominance and legibility injustice measured"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+]

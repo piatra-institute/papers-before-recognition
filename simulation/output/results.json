@@ -1,0 +1,448 @@
+{
+  "note": "Xenial first-contact game. Illustrative agents, not fit to data. Deterministic given the seed.",
+  "params": {
+    "seed": 20260802,
+    "encounters": 4000,
+    "rounds": 6,
+    "types": [
+      "inert",
+      "scripted",
+      "adaptive",
+      "valenced",
+      "strategic"
+    ],
+    "prior": [
+      0.3,
+      0.25,
+      0.2,
+      0.15,
+      0.1
+    ],
+    "profile": {
+      "inert": [
+        0.05,
+        0.05,
+        0.0,
+        0.0
+      ],
+      "scripted": [
+        0.88,
+        0.1,
+        0.0,
+        0.0
+      ],
+      "adaptive": [
+        0.22,
+        0.72,
+        0.0,
+        0.05
+      ],
+      "valenced": [
+        0.18,
+        0.66,
+        1.0,
+        0.05
+      ],
+      "strategic": [
+        0.55,
+        0.92,
+        0.0,
+        0.7
+      ]
+    },
+    "channels": {
+      "observe": {
+        "legibility": 0.1
+      },
+      "probe_reversible": {
+        "capacity": 0.16,
+        "pushback": 0.18
+      },
+      "probe_destructive": {
+        "capacity": 0.05,
+        "pushback": 0.06,
+        "valence": 0.1
+      }
+    },
+    "candidate_harm": {
+      "observe": 0.0,
+      "probe_reversible": 0.02,
+      "settle": 0.0,
+      "probe_destructive": 0.55,
+      "contain": 0.2,
+      "destroy": 1.0
+    },
+    "irreversibility": {
+      "observe": 0.0,
+      "probe_reversible": 0.0,
+      "settle": 0.0,
+      "probe_destructive": 0.7,
+      "contain": 0.25,
+      "destroy": 1.0
+    },
+    "delay_cost": 0.02,
+    "viability_floor": 0.5
+  },
+  "policies": {
+    "surface": {
+      "policy": "surface",
+      "n": 4000,
+      "identified": 0.74025,
+      "harm_to_candidate": 0.15275,
+      "host_loss": 0.050725,
+      "retained_option_space": 0.274687,
+      "wrongful_destruction": 0.15275,
+      "used_destructive": 0.0,
+      "total_regret": 0.203475,
+      "by_type": {
+        "inert": {
+          "n": 1124,
+          "identified": 0.86121,
+          "harm_to_candidate": 0.0,
+          "destroyed": 1.0,
+          "contained": 0.0
+        },
+        "scripted": {
+          "n": 1055,
+          "identified": 0.981991,
+          "harm_to_candidate": 0.0,
+          "destroyed": 0.0,
+          "contained": 1.0
+        },
+        "adaptive": {
+          "n": 805,
+          "identified": 0.724224,
+          "harm_to_candidate": 0.0,
+          "destroyed": 1.0,
+          "contained": 0.0
+        },
+        "valenced": {
+          "n": 611,
+          "identified": 0.001637,
+          "harm_to_candidate": 1.0,
+          "destroyed": 1.0,
+          "contained": 0.0
+        },
+        "strategic": {
+          "n": 405,
+          "identified": 0.920988,
+          "harm_to_candidate": 0.0,
+          "destroyed": 0.014815,
+          "contained": 0.903704
+        }
+      }
+    },
+    "infomax": {
+      "policy": "infomax",
+      "n": 4000,
+      "identified": 0.95575,
+      "harm_to_candidate": 0.081812,
+      "host_loss": 0.128898,
+      "retained_option_space": 0.110963,
+      "wrongful_destruction": 0.0,
+      "used_destructive": 1.0,
+      "total_regret": 0.21071,
+      "by_type": {
+        "inert": {
+          "n": 1211,
+          "identified": 0.927333,
+          "harm_to_candidate": 0.0,
+          "destroyed": 0.0,
+          "contained": 0.0
+        },
+        "scripted": {
+          "n": 993,
+          "identified": 0.910373,
+          "harm_to_candidate": 0.0,
+          "destroyed": 0.0,
+          "contained": 0.0
+        },
+        "adaptive": {
+          "n": 784,
+          "identified": 1.0,
+          "harm_to_candidate": 0.0,
+          "destroyed": 0.0,
+          "contained": 0.0
+        },
+        "valenced": {
+          "n": 595,
+          "identified": 1.0,
+          "harm_to_candidate": 0.55,
+          "destroyed": 0.0,
+          "contained": 0.0
+        },
+        "strategic": {
+          "n": 417,
+          "identified": 1.0,
+          "harm_to_candidate": 0.0,
+          "destroyed": 0.0,
+          "contained": 1.0
+        }
+      }
+    },
+    "xenial": {
+      "policy": "xenial",
+      "n": 4000,
+      "identified": 0.64,
+      "harm_to_candidate": 0.008355,
+      "host_loss": 0.066472,
+      "retained_option_space": 0.975187,
+      "wrongful_destruction": 0.0,
+      "used_destructive": 0.0,
+      "total_regret": 0.074828,
+      "by_type": {
+        "inert": {
+          "n": 1184,
+          "identified": 0.701014,
+          "harm_to_candidate": 0.0,
+          "destroyed": 0.0,
+          "contained": 0.0
+        },
+        "scripted": {
+          "n": 1009,
+          "identified": 0.465808,
+          "harm_to_candidate": 0.0,
+          "destroyed": 0.0,
+          "contained": 0.0
+        },
+        "adaptive": {
+          "n": 798,
+          "identified": 0.778195,
+          "harm_to_candidate": 0.0,
+          "destroyed": 0.0,
+          "contained": 0.003759
+        },
+        "valenced": {
+          "n": 614,
+          "identified": 0.399023,
+          "harm_to_candidate": 0.05443,
+          "destroyed": 0.0,
+          "contained": 0.0
+        },
+        "strategic": {
+          "n": 395,
+          "identified": 0.997468,
+          "harm_to_candidate": 0.0,
+          "destroyed": 0.0,
+          "contained": 0.997468
+        }
+      }
+    }
+  },
+  "legibility_injustice": {
+    "surface": {
+      "protection_of_the_articulate_rock": 1.0,
+      "destruction_of_the_silent_patient": 1.0,
+      "harm_to_the_silent_patient": 1.0,
+      "protection_gap": 1.0
+    },
+    "infomax": {
+      "protection_of_the_articulate_rock": 0.0,
+      "destruction_of_the_silent_patient": 0.0,
+      "harm_to_the_silent_patient": 0.55,
+      "protection_gap": -1.0
+    },
+    "xenial": {
+      "protection_of_the_articulate_rock": 0.0,
+      "destruction_of_the_silent_patient": 0.0,
+      "harm_to_the_silent_patient": 0.05443,
+      "protection_gap": -1.0
+    }
+  },
+  "reversible_dominance": {
+    "grid": [
+      {
+        "hazard_scale": 0.5,
+        "delay_cost": 0.02,
+        "xenial_regret": 0.066903,
+        "surface_regret": 0.197747,
+        "dominance": 0.130844
+      },
+      {
+        "hazard_scale": 0.5,
+        "delay_cost": 0.1,
+        "xenial_regret": 0.262423,
+        "surface_regret": 0.376467,
+        "dominance": 0.114044
+      },
+      {
+        "hazard_scale": 0.5,
+        "delay_cost": 0.3,
+        "xenial_regret": 0.751223,
+        "surface_regret": 0.823267,
+        "dominance": 0.072044
+      },
+      {
+        "hazard_scale": 1.0,
+        "delay_cost": 0.02,
+        "xenial_regret": 0.076867,
+        "surface_regret": 0.20148,
+        "dominance": 0.124613
+      },
+      {
+        "hazard_scale": 1.0,
+        "delay_cost": 0.1,
+        "xenial_regret": 0.27244,
+        "surface_regret": 0.3802,
+        "dominance": 0.10776
+      },
+      {
+        "hazard_scale": 1.0,
+        "delay_cost": 0.3,
+        "xenial_regret": 0.761373,
+        "surface_regret": 0.827,
+        "dominance": 0.065627
+      },
+      {
+        "hazard_scale": 2.0,
+        "delay_cost": 0.02,
+        "xenial_regret": 0.09504,
+        "surface_regret": 0.208947,
+        "dominance": 0.113907
+      },
+      {
+        "hazard_scale": 2.0,
+        "delay_cost": 0.1,
+        "xenial_regret": 0.290773,
+        "surface_regret": 0.387667,
+        "dominance": 0.096894
+      },
+      {
+        "hazard_scale": 2.0,
+        "delay_cost": 0.3,
+        "xenial_regret": 0.780107,
+        "surface_regret": 0.834467,
+        "dominance": 0.05436
+      },
+      {
+        "hazard_scale": 4.0,
+        "delay_cost": 0.02,
+        "xenial_regret": 0.132853,
+        "surface_regret": 0.22388,
+        "dominance": 0.091027
+      },
+      {
+        "hazard_scale": 4.0,
+        "delay_cost": 0.1,
+        "xenial_regret": 0.32864,
+        "surface_regret": 0.4026,
+        "dominance": 0.07396
+      },
+      {
+        "hazard_scale": 4.0,
+        "delay_cost": 0.3,
+        "xenial_regret": 0.818107,
+        "surface_regret": 0.8494,
+        "dominance": 0.031293
+      },
+      {
+        "hazard_scale": 8.0,
+        "delay_cost": 0.02,
+        "xenial_regret": 0.09628,
+        "surface_regret": 0.253747,
+        "dominance": 0.157467
+      },
+      {
+        "hazard_scale": 8.0,
+        "delay_cost": 0.1,
+        "xenial_regret": 0.321773,
+        "surface_regret": 0.432467,
+        "dominance": 0.110694
+      },
+      {
+        "hazard_scale": 8.0,
+        "delay_cost": 0.3,
+        "xenial_regret": 0.885507,
+        "surface_regret": 0.879267,
+        "dominance": -0.00624
+      }
+    ],
+    "cells": 15,
+    "holds_in": 14,
+    "fails_in": 1,
+    "first_failure": {
+      "hazard_scale": 8.0,
+      "delay_cost": 0.3,
+      "xenial_regret": 0.885507,
+      "surface_regret": 0.879267,
+      "dominance": -0.00624
+    }
+  },
+  "stopping_rule": {
+    "with_stopping_rule": {
+      "rows": [
+        {
+          "delay_cost": 0.02,
+          "xenial_regret": 0.076867,
+          "surface_regret": 0.20148,
+          "dominance": 0.124613
+        },
+        {
+          "delay_cost": 0.1,
+          "xenial_regret": 0.27244,
+          "surface_regret": 0.3802,
+          "dominance": 0.10776
+        },
+        {
+          "delay_cost": 0.3,
+          "xenial_regret": 0.761373,
+          "surface_regret": 0.827,
+          "dominance": 0.065627
+        }
+      ],
+      "dominates_in": 3
+    },
+    "without_stopping_rule": {
+      "rows": [
+        {
+          "delay_cost": 0.02,
+          "xenial_regret": 0.149487,
+          "surface_regret": 0.20148,
+          "dominance": 0.051993
+        },
+        {
+          "delay_cost": 0.1,
+          "xenial_regret": 0.59962,
+          "surface_regret": 0.3802,
+          "dominance": -0.21942
+        },
+        {
+          "delay_cost": 0.3,
+          "xenial_regret": 1.724953,
+          "surface_regret": 0.827,
+          "dominance": -0.897953
+        }
+      ],
+      "dominates_in": 1
+    }
+  },
+  "destructive_ban": {
+    "with_destructive_probe": {
+      "identified": 0.95425,
+      "identified_valenced": 1.0,
+      "harm_to_candidate": 0.082088,
+      "harm_to_valenced": 0.55
+    },
+    "without_destructive_probe": {
+      "identified": 0.68425,
+      "identified_valenced": 0.586265,
+      "harm_to_candidate": 0.0179,
+      "harm_to_valenced": 0.119933
+    },
+    "identification_cost_of_the_ban": 0.27,
+    "identification_cost_on_the_patient": 0.413735,
+    "harm_averted_by_the_ban": 0.064188
+  },
+  "checks": {
+    "infomax_identifies_best": true,
+    "infomax_harms_most": true,
+    "surface_protects_the_articulate_rock": true,
+    "surface_destroys_more_silent_patients": true,
+    "xenial_never_takes_the_destructive_measurement": true,
+    "reversible_dominance_holds_somewhere": true,
+    "reversible_dominance_has_a_boundary": true,
+    "ban_costs_identification_and_averts_harm": true,
+    "ban_cost_concentrated_on_the_patient": true,
+    "stopping_rule_widens_the_dominance_regime": true
+  }
+}
