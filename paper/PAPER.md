@@ -160,6 +160,10 @@ Glissant is indispensable here and transfers carefully, since he wrote from a co
 
 Understanding should therefore be asked to increase coordination without being asked to produce sameness. The standard for a successful encounter is that the parties can act with respect to each other. Neither has to become the other's kind of thing.
 
+The relation has a domestic proof, and it is the oldest one. Love between persons, where it lasts, has this structure. The beloved is the stranger met daily: known well enough that the knowing has given up pretending it will finish, familiar beyond any inventory, and other at the end of every approach. Decades of intimacy produce a map the other keeps outrunning, and the loves that survive are the ones in which the outrunning is welcome, the other's opacity counted among the goods of the relation. Intimacy of this kind is intimacy without annexation. A lover who completes the classification, who files the beloved as fully known, has ended the encounter and kept the file.
+
+So the standard this paper asks toward a manufactured stranger already has a mature and ordinary form: coordination that deepens for years without converging, care that does not wait on a settled account of what the other is, a boundary honoured because crossing it would replace the other with the crosser's model of them. Persons practice being-with under permanent opacity daily and call the practice by its right name. What the coming stranger asks of a host is a discipline the host's own life has been running all along.
+
 ## What the law can do before it has a category
 
 Levinas holds that responsibility precedes reciprocity and precedes theoretical mastery of who the other is, and the structure of that claim is what this paper needs (Levinas, 1998). The difficulty is that the account is written around the human face and its extension is contested; a reading finding a face in every feedback loop has emptied the notion. The division of labour is clean enough to state. Levinas supplies the priority of obligation over identification. He does not supply the finding that there is a candidate here at all, which is empirical work.

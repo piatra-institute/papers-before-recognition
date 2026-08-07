@@ -1,5 +1,19 @@
 # Audit
 
+## 2026-08-07 — v1.1, the domestic proof
+
+Scope: two paragraphs added at the close of "Co-worlding under opacity"; nothing else touched.
+
+Changes:
+  - The co-worlding standard given its domestic proof (user-supplied idea): love as the daily meeting of a stranger who has become intimate without ceasing to be other; intimacy without annexation; the beloved known well enough that the knowing has given up pretending it will finish. The xenial relation's mature form shown to be the most ordinary relation persons maintain, so the discipline asked toward the manufactured stranger is one the host's own life already runs.
+
+Verification:
+  - voice: 0 errors, 0 review-candidates
+  - refs: 15/15, 0 missing, 0 unused
+  - claims: 1 no-match (0.0062, the known negative-value false positive)
+  - build + sync: PASS; check => PASS
+
+
 ## v1 (2026-08-02) — written from the seed
 
 Seeded from a research conversation proposing a foundational ethics for encounters with radically unfamiliar minds. The seed was strong on structure and overbuilt on apparatus; the reductions are recorded in `research.md` and are the main editorial decision here.
