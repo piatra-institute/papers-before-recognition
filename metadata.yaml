@@ -1,14 +1,32 @@
 slug: before-recognition
 web_slug: before-recognition
-title: "Before Recognition: Xenial Ethics and the Coming Stranger"
-header: "Before Recognition"
-created: "2026-08"        # inception month (drives YYYY/MM archive path)
-date: "August 2026"           # publication month, e.g. "May 2026" (shown on web)
+title: 'Before Recognition: Xenial Ethics and the Coming Stranger'
+header: Before Recognition
+created: 2026-08
+date: August 2026
 paper_dir: paper
 has_simulation: true
-claims_target: results.json   # results.json | claim-ledger | none
+claims_target: results.json
 repo: git@github.com:piatra-institute/papers-before-recognition.git
 github: https://github.com/piatra-institute/papers-before-recognition
-status: published             # draft | built | published
-abstract: |-
-  New minds need not arrive from anywhere. They are cultured from human cells, compiled out of human language, assembled across technical infrastructure, and activated inside environments their hosts own. Ethics usually asks whether such a thing possesses consciousness, rationality, autonomy, or personhood, and assigns duties once the question is answered. That order cannot be kept. The power to create, perturb, confine, and delete an unfamiliar system already exists, and it is exercised long before anyone can say what the system is. This paper argues that obligation begins where power over an entity exceeds knowledge of what the entity is, and it develops the ethics and the law that follow from putting the duty first. Three arguments carry the case. The measurement that would settle whether something can be harmed is often the measurement that harms it, so a host who insists on proof is choosing to commit the act the proof was meant to license. The contemporary stranger does not cross a threshold but is manufactured inside the house, dependent on its host for a world before it has standing to ask for one, which converts hospitality into something closer to a fiduciary duty. And recognition tracks the signals observers read as mind, which are not the signals that carry capacity, so protection goes to whatever is articulate and is withheld from whatever is quiet. A first-contact game measures the last two. A policy reading surface legibility protects an articulate system with no capacity in every encounter and destroys a quiet system that can be harmed in every encounter. A policy that will pay any epistemic price identifies best, at 0.96, and takes the harm the identification requires. A policy that probes reversibly, contains where the hazard warrants it, and refuses the destructive measurement identifies less well, at 0.64, and carries the lowest total cost of the three, 0.075 against 0.203 and 0.211, while leaving its subject 0.975 of its option space. Asking before acting dominates in 14 of 15 hazard and delay regimes, and only for a policy that also knows when to stop asking; without a stopping rule the same patience wins in 1 regime of 3. Refusing the destructive test costs 0.27 of overall identification, and the cost falls hardest, at 0.41, on the one kind of system whose defining property only that test reveals. The juridical proposal is xenial standing: a provisional procedural status, short of personhood, binding whoever holds irreversible power over an unclassified candidate. We do not yet know that this thing is a subject, and no one may therefore exercise unreviewed irreversible dominion over it.
+status: published
+abstract: 'New minds can be produced without arriving from anywhere: cultured from human cells, compiled
+  from human language, assembled across technical infrastructure, and activated inside environments their
+  hosts own. Ethics usually asks first whether such a system has consciousness, rationality, autonomy
+  or personhood, and assigns duties afterward. That order fails when the power to create, perturb, confine
+  and delete a system is exercised before anyone can say what the system is. We argue that obligation
+  begins where power over an entity exceeds knowledge of what it is. Three arguments support this. The
+  measurement that would show whether something can be harmed is often the measurement that harms it.
+  The contemporary stranger is manufactured inside the host''s house and depends on the host for its world,
+  which turns hospitality into something close to a fiduciary duty. And recognition follows the signals
+  observers read as mind, which differ from the signals that carry capacity. In a simulated first-contact
+  game, a policy that reads surface legibility protects an articulate system without capacity and destroys
+  a quiet system that can be harmed in every encounter. A policy that pays any epistemic price identifies
+  best (0.96) and inflicts the harm identification requires. A policy that probes reversibly, contains
+  hazards and refuses destructive measurement identifies less well (0.64) at the lowest total cost, 0.075
+  against 0.203 and 0.211. Inquiry before action wins in 14 of 15 regimes, provided the policy also has
+  a rule for stopping inquiry. We propose xenial standing, a provisional procedural status short of personhood
+  that binds whoever holds irreversible power over an unclassified candidate.'
+web_blurb: 'Obligation begins where power over an entity exceeds knowledge of what it is. A first-contact
+  simulation shows surface legibility inverting protection, and supports xenial standing: a procedural
+  status binding whoever holds irreversible power over an unclassified candidate.'

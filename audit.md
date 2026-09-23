@@ -1,5 +1,10 @@
 # Audit
 
+## 2026-09-23 — prose revision
+
+Prose revised against the house standards. Headings made descriptive (Introduction, Obligation before recognition, Manufactured dependence, Unconventional agency in the laboratory, Five senses of agency, Legibility and capacity, Three encounter policies, Simulation design, Results, Inquiry before action and its limits, The cost of refusing destructive measurement, Limitations of the simulation, Relation without shared understanding, Legal standing without classification, Objections, Conclusion).
+Values audited: all are Monte Carlo outputs over 4000 encounters or regime counts on a stated hazard-by-delay grid; no grid-derived thresholds are reported as exact. results.json unchanged by figure edits.
+
 ## 2026-08-07 — v1.1, the domestic proof
 
 Scope: two paragraphs added at the close of "Co-worlding under opacity"; nothing else touched.

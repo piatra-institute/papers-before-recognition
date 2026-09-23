@@ -41,7 +41,7 @@ def plot_policies(res: dict, path: str) -> None:
     a1.set_xticks(x)
     a1.set_xticklabels([LABEL[p] for p in POLICIES], fontsize=8.5)
     a1.set_ylim(0, 1.08)
-    a1.set_title("what each policy buys and what it spends", fontsize=10, color=INK)
+    a1.set_title("identification, harm and option space by policy", fontsize=10, color=INK)
     a1.legend(frameon=False, fontsize=8, loc="upper center", ncol=1)
 
     a2.bar(x, [pol[p]["total_regret"] for p in POLICIES], 0.55,
@@ -52,7 +52,7 @@ def plot_policies(res: dict, path: str) -> None:
     a2.set_xticks(x)
     a2.set_xticklabels([LABEL[p] for p in POLICIES], fontsize=8.5)
     a2.set_ylabel("total regret (harm to candidate plus loss to host)")
-    a2.set_title("the constrained policy is not the expensive one", fontsize=10, color=INK)
+    a2.set_title("total cost by policy", fontsize=10, color=INK)
     for ax in (a1, a2):
         _style(ax)
     fig.tight_layout()
@@ -72,7 +72,7 @@ def plot_legibility_injustice(res: dict, path: str) -> None:
     ax.set_xticks(x)
     ax.set_xticklabels([LABEL[p] for p in POLICIES], fontsize=9)
     ax.set_ylim(0, 1.12)
-    ax.set_title("protection allocated by how mind-like a thing looks", fontsize=10, color=INK)
+    ax.set_title("containment and destruction by system kind and policy", fontsize=10, color=INK)
     ax.legend(frameon=False, fontsize=8.5, loc="upper right")
     _style(ax)
     fig.tight_layout()
@@ -103,7 +103,7 @@ def plot_dominance(res: dict, path: str) -> None:
                     color=INK)
     a1.set_xlabel("hazard scale")
     a1.set_ylabel("cost of a round spent deliberating")
-    a1.set_title("where asking first beats acting first", fontsize=10, color=INK)
+    a1.set_title("advantage of inquiry by hazard and delay cost", fontsize=10, color=INK)
     a1.grid(False)
     fig.colorbar(im, ax=a1, fraction=0.046, pad=0.04)
 
@@ -116,7 +116,7 @@ def plot_dominance(res: dict, path: str) -> None:
     a2.axhline(0, color=INK, lw=0.9, ls="--")
     a2.set_xlabel("cost of a round spent deliberating")
     a2.set_ylabel("advantage of asking first")
-    a2.set_title("patience needs to know when to stop", fontsize=10, color=INK)
+    a2.set_title("advantage of inquiry with and without a stopping rule", fontsize=10, color=INK)
     a2.legend(frameon=False, fontsize=8.5, loc="lower left")
     _style(a2)
     fig.tight_layout()
@@ -144,7 +144,7 @@ def plot_ban(res: dict, path: str) -> None:
     ax.set_xticks(x)
     ax.set_xticklabels(cats, fontsize=8)
     ax.set_ylim(0, 1.12)
-    ax.set_title("the price of refusing the one test that would settle it",
+    ax.set_title("identification and harm with and without destructive probes",
                  fontsize=10, color=INK)
     ax.legend(frameon=False, fontsize=8.5, loc="upper right")
     _style(ax)

@@ -1,0 +1,23 @@
+{
+  "pdf_sha256": "76ff3211a5783a1123f748386cf05982cf16c2d948284f556a046cd7ad1700ac",
+  "page_count": 15,
+  "pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "all_pages_inspected": true,
+  "notes": "All 15 pages inspected after the prose revision; figure titles and one caption replaced with descriptive ones. Metadata-only rebuild: the web blurb in metadata.yaml, a hashed build input, changed, so the PDF was re-rendered (0b52291caf95 to 76ff3211a578); the rendered text is byte-for-byte identical and no page was re-inspected."
+}
