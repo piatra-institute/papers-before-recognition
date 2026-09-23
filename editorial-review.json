@@ -1,10 +1,10 @@
 {
-  "manuscript_sha256": "3653a7e589043ead93ba5dec7a8a1ba2c523f1a5e866667f015261ebdda9f7d5",
+  "manuscript_sha256": "c7e89377a7de36998a65549feb8f1c8b9cf4ac46d19f6f3e600f801530a56d8d",
   "full_read": true,
   "argument_review": true,
   "structure_review": true,
   "voice_review": true,
   "source_review": true,
   "final_read": true,
-  "notes": "Prose revision: descriptive headings; opening epigraph lines removed; abstract rewritten (261 words, previously about 400); negate-pivots, aphorisms and the cosmic-horror closing replaced with declaratives; the love-as-precedent passage condensed; every number and citation preserved."
+  "notes": "Structured-evidence migration: inline bibliography converted to references.yaml (CSL) with Pandoc [@id] citations; claims.yaml ledger and execution receipt added. One number corrected against results.json (largest inquiry advantage +0.157, not +0.131); prose otherwise unchanged."
 }

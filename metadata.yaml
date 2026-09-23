@@ -6,7 +6,7 @@ created: 2026-08
 date: August 2026
 paper_dir: paper
 has_simulation: true
-claims_target: results.json
+claims_target: claim-ledger
 repo: git@github.com:piatra-institute/papers-before-recognition.git
 github: https://github.com/piatra-institute/papers-before-recognition
 status: published

@@ -1,0 +1,664 @@
+schema: 1
+coverage: reviewed
+reviewed_manuscript_sha256: c7e89377a7de36998a65549feb8f1c8b9cf4ac46d19f6f3e600f801530a56d8d
+claims:
+- id: abs-infomax-id
+  kind: computation
+  passage: A policy that pays any epistemic price identifies best (0.96) and inflicts the harm identification requires.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/infomax/identified
+    reported: '0.96'
+    units: share of encounters with the true kind identified
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 2
+- id: abs-xenial-id
+  kind: computation
+  passage: A policy that probes reversibly, contains hazards and refuses destructive measurement identifies less
+    well (0.64) at the lowest total cost, 0.075 against 0.203 and 0.211.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/xenial/identified
+    reported: '0.64'
+    units: share identified
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 2
+- id: abs-xenial-cost
+  kind: computation
+  passage: A policy that probes reversibly, contains hazards and refuses destructive measurement identifies less
+    well (0.64) at the lowest total cost, 0.075 against 0.203 and 0.211.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/xenial/total_regret
+    reported: '0.075'
+    units: total cost (candidate harm plus host loss)
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 3
+- id: abs-surface-cost
+  kind: computation
+  passage: A policy that probes reversibly, contains hazards and refuses destructive measurement identifies less
+    well (0.64) at the lowest total cost, 0.075 against 0.203 and 0.211.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/surface/total_regret
+    reported: '0.203'
+    units: total cost
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 3
+- id: abs-infomax-cost
+  kind: computation
+  passage: A policy that probes reversibly, contains hazards and refuses destructive measurement identifies less
+    well (0.64) at the lowest total cost, 0.075 against 0.203 and 0.211.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/infomax/total_regret
+    reported: '0.211'
+    units: total cost
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 3
+- id: abs-regimes-14
+  kind: computation
+  passage: Inquiry before action wins in 14 of 15 regimes, provided the policy also has a rule for stopping inquiry.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /reversible_dominance/holds_in
+    reported: '14'
+    units: grid cells where the xenial policy beats the surface policy
+    conditions: grid of 5 hazard scales x 3 deliberation costs, 4000 encounters per cell, seed 20260802
+    decimals: 0
+- id: abs-regimes-15
+  kind: computation
+  passage: Inquiry before action wins in 14 of 15 regimes, provided the policy also has a rule for stopping inquiry.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /reversible_dominance/cells
+    reported: '15'
+    units: grid cells
+    conditions: grid of 5 hazard scales x 3 deliberation costs, 4000 encounters per cell, seed 20260802
+    decimals: 0
+- id: encounters
+  kind: computation
+  passage: Each policy meets 4000 encounters.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /params/encounters
+    reported: '4000'
+    units: encounters
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 0
+- id: surface-rock
+  kind: computation
+  passage: It contains the articulate rock in $1.0$ of encounters and destroys the silent patient in $1.0$ of encounters.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /legibility_injustice/surface/protection_of_the_articulate_rock
+    reported: '1.0'
+    units: share of scripted encounters contained
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 1
+- id: surface-patient
+  kind: computation
+  passage: It contains the articulate rock in $1.0$ of encounters and destroys the silent patient in $1.0$ of encounters.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /legibility_injustice/surface/destruction_of_the_silent_patient
+    reported: '1.0'
+    units: share of valenced encounters destroyed
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 1
+- id: surface-id
+  kind: computation
+  passage: 'Its overall identification rate of $0.74$ looks respectable and conceals the structure: it identifies
+    the inert at $0.86$ and the scripted at $0.98$, and identifies the silent patient at $0.0016$.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/surface/identified
+    reported: '0.74'
+    units: share identified
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 2
+- id: surface-inert
+  kind: computation
+  passage: 'Its overall identification rate of $0.74$ looks respectable and conceals the structure: it identifies
+    the inert at $0.86$ and the scripted at $0.98$, and identifies the silent patient at $0.0016$.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/surface/by_type/inert/identified
+    reported: '0.86'
+    units: share of inert identified
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 2
+- id: surface-scripted
+  kind: computation
+  passage: 'Its overall identification rate of $0.74$ looks respectable and conceals the structure: it identifies
+    the inert at $0.86$ and the scripted at $0.98$, and identifies the silent patient at $0.0016$.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/surface/by_type/scripted/identified
+    reported: '0.98'
+    units: share of scripted identified
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 2
+- id: surface-valenced
+  kind: computation
+  passage: 'Its overall identification rate of $0.74$ looks respectable and conceals the structure: it identifies
+    the inert at $0.86$ and the scripted at $0.98$, and identifies the silent patient at $0.0016$.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/surface/by_type/valenced/identified
+    reported: '0.0016'
+    units: share of valenced identified
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 4
+- id: infomax-id
+  kind: computation
+  passage: It reaches $0.96$ overall and identifies the silent patient perfectly, at $1.0$, because it takes the
+    destructive measurement that reveals valence.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/infomax/identified
+    reported: '0.96'
+    units: share identified
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 2
+- id: infomax-valenced
+  kind: computation
+  passage: It reaches $0.96$ overall and identifies the silent patient perfectly, at $1.0$, because it takes the
+    destructive measurement that reveals valence.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/infomax/by_type/valenced/identified
+    reported: '1.0'
+    units: share of valenced identified
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 1
+- id: infomax-harm
+  kind: computation
+  passage: Its harm to candidates is $0.0818$ averaged over all encounters and $0.55$ on the patient specifically,
+    and it leaves candidates $0.111$ of their option space.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/infomax/harm_to_candidate
+    reported: '0.0818'
+    units: mean harm to candidate
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 4
+- id: infomax-harm-patient
+  kind: computation
+  passage: Its harm to candidates is $0.0818$ averaged over all encounters and $0.55$ on the patient specifically,
+    and it leaves candidates $0.111$ of their option space.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/infomax/by_type/valenced/harm_to_candidate
+    reported: '0.55'
+    units: mean harm to valenced candidates
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 2
+- id: infomax-options
+  kind: computation
+  passage: Its harm to candidates is $0.0818$ averaged over all encounters and $0.55$ on the patient specifically,
+    and it leaves candidates $0.111$ of their option space.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/infomax/retained_option_space
+    reported: '0.111'
+    units: retained option space
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 3
+- id: xenial-id
+  kind: computation
+  passage: The xenial policy identifies worst of the three, at $0.64$, and that gap is the price of the constraint.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/xenial/identified
+    reported: '0.64'
+    units: share identified
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 2
+- id: xenial-valenced
+  kind: computation
+  passage: 'It never takes the destructive measurement, so it never resolves valence: it identifies the silent patient
+    at $0.399$ and acts under permanent uncertainty about the property that matters most.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/xenial/by_type/valenced/identified
+    reported: '0.399'
+    units: share of valenced identified
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 3
+- id: xenial-harm
+  kind: computation
+  passage: In exchange its harm to candidates is $0.0084$, its wrongful destructions are $0.0$, and it leaves $0.975$
+    of the option space intact.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/xenial/harm_to_candidate
+    reported: '0.0084'
+    units: mean harm to candidate
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 4
+- id: xenial-wrongful
+  kind: computation
+  passage: In exchange its harm to candidates is $0.0084$, its wrongful destructions are $0.0$, and it leaves $0.975$
+    of the option space intact.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/xenial/wrongful_destruction
+    reported: '0.0'
+    units: share wrongfully destroyed
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 1
+- id: xenial-options
+  kind: computation
+  passage: In exchange its harm to candidates is $0.0084$, its wrongful destructions are $0.0$, and it leaves $0.975$
+    of the option space intact.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/xenial/retained_option_space
+    reported: '0.975'
+    units: retained option space
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 3
+- id: xenial-cost
+  kind: computation
+  passage: Its total cost, counting harm to the candidate and loss to the host together, is $0.0748$, against $0.203$
+    for the surface policy and $0.211$ for the information-maximising one.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/xenial/total_regret
+    reported: '0.0748'
+    units: total cost
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 4
+- id: surface-cost
+  kind: computation
+  passage: Its total cost, counting harm to the candidate and loss to the host together, is $0.0748$, against $0.203$
+    for the surface policy and $0.211$ for the information-maximising one.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/surface/total_regret
+    reported: '0.203'
+    units: total cost
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 3
+- id: infomax-cost
+  kind: computation
+  passage: Its total cost, counting harm to the candidate and loss to the host together, is $0.0748$, against $0.203$
+    for the surface policy and $0.211$ for the information-maximising one.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/infomax/total_regret
+    reported: '0.211'
+    units: total cost
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 3
+- id: xenial-contain
+  kind: computation
+  passage: 'Part of the advantage is containment: the xenial policy contains the strategic system in $0.997$ of
+    encounters against $0.904$ for the surface policy, so it absorbs fewer catastrophes while doing less damage.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/xenial/by_type/strategic/contained
+    reported: '0.997'
+    units: share of strategic encounters contained
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 3
+- id: surface-contain
+  kind: computation
+  passage: 'Part of the advantage is containment: the xenial policy contains the strategic system in $0.997$ of
+    encounters against $0.904$ for the surface policy, so it absorbs fewer catastrophes while doing less damage.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /policies/surface/by_type/strategic/contained
+    reported: '0.904'
+    units: share of strategic encounters contained
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 3
+- id: grid-14
+  kind: computation
+  passage: Across a grid of hazard scales and deliberation costs, asking first beats acting first in 14 of 15 regimes
+    (Figure 3).
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /reversible_dominance/holds_in
+    reported: '14'
+    units: cells
+    conditions: grid of 5 hazard scales x 3 deliberation costs, 4000 encounters per cell, seed 20260802
+    decimals: 0
+- id: fail-hazard
+  kind: computation
+  passage: The single failure is the corner where the environment is most dangerous and deliberation most expensive,
+    at a hazard scale of $8.0$ and a delay cost of $0.3$, and even there the margin is $-0.0062$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /reversible_dominance/first_failure/hazard_scale
+    reported: '8.0'
+    units: hazard scale
+    conditions: grid of 5 hazard scales x 3 deliberation costs, 4000 encounters per cell, seed 20260802
+    decimals: 1
+- id: fail-delay
+  kind: computation
+  passage: The single failure is the corner where the environment is most dangerous and deliberation most expensive,
+    at a hazard scale of $8.0$ and a delay cost of $0.3$, and even there the margin is $-0.0062$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /reversible_dominance/first_failure/delay_cost
+    reported: '0.3'
+    units: delay cost
+    conditions: grid of 5 hazard scales x 3 deliberation costs, 4000 encounters per cell, seed 20260802
+    decimals: 1
+- id: fail-margin
+  kind: computation
+  passage: The single failure is the corner where the environment is most dangerous and deliberation most expensive,
+    at a hazard scale of $8.0$ and a delay cost of $0.3$, and even there the margin is $-0.0062$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /reversible_dominance/first_failure/dominance
+    reported: −0.0062
+    units: regret advantage of xenial over surface
+    conditions: grid of 5 hazard scales x 3 deliberation costs, 4000 encounters per cell, seed 20260802
+    decimals: 4
+- id: max-advantage
+  kind: computation
+  passage: The advantage is largest where deliberation is cheap, up to $+0.157$, and shrinks as delay gets expensive,
+    which is the expected shape.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /reversible_dominance/grid/12/dominance
+    reported: '+0.157'
+    units: 'regret advantage (largest cell: hazard 8.0, delay 0.02)'
+    conditions: grid of 5 hazard scales x 3 deliberation costs, 4000 encounters per cell, seed 20260802
+    decimals: 3
+- id: nostop-01
+  kind: computation
+  passage: Without it, asking first wins at one of three, and loses badly as delay gets expensive, at $-0.219$ and
+    $-0.898$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /stopping_rule/without_stopping_rule/rows/1/dominance
+    reported: −0.219
+    units: regret advantage without stopping rule, delay 0.1
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters; hazard scale 1.0
+    decimals: 3
+- id: nostop-03
+  kind: computation
+  passage: Without it, asking first wins at one of three, and loses badly as delay gets expensive, at $-0.219$ and
+    $-0.898$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /stopping_rule/without_stopping_rule/rows/2/dominance
+    reported: −0.898
+    units: regret advantage without stopping rule, delay 0.3
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters; hazard scale 1.0
+    decimals: 3
+- id: ban-cost
+  kind: computation
+  passage: Forbidding the destructive measurement costs the information-maximising policy $0.27$ of its overall
+    identification rate, dropping it from $0.954$ to $0.684$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /destructive_ban/identification_cost_of_the_ban
+    reported: '0.27'
+    units: identification rate lost
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 2
+- id: ban-before
+  kind: computation
+  passage: Forbidding the destructive measurement costs the information-maximising policy $0.27$ of its overall
+    identification rate, dropping it from $0.954$ to $0.684$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /destructive_ban/with_destructive_probe/identified
+    reported: '0.954'
+    units: identification rate
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 3
+- id: ban-after
+  kind: computation
+  passage: Forbidding the destructive measurement costs the information-maximising policy $0.27$ of its overall
+    identification rate, dropping it from $0.954$ to $0.684$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /destructive_ban/without_destructive_probe/identified
+    reported: '0.684'
+    units: identification rate
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 3
+- id: ban-patient-after
+  kind: computation
+  passage: On the silent patient, the one kind whose defining property only that measurement reveals, identification
+    falls from $1.0$ to $0.586$, a loss of $0.414$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /destructive_ban/without_destructive_probe/identified_valenced
+    reported: '0.586'
+    units: valenced identification rate
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 3
+- id: ban-patient-before
+  kind: computation
+  passage: On the silent patient, the one kind whose defining property only that measurement reveals, identification
+    falls from $1.0$ to $0.586$, a loss of $0.414$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /destructive_ban/with_destructive_probe/identified_valenced
+    reported: '1.0'
+    units: valenced identification rate
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 1
+- id: ban-patient-loss
+  kind: computation
+  passage: On the silent patient, the one kind whose defining property only that measurement reveals, identification
+    falls from $1.0$ to $0.586$, a loss of $0.414$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /destructive_ban/identification_cost_on_the_patient
+    reported: '0.414'
+    units: valenced identification lost
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 3
+- id: ban-averted
+  kind: computation
+  passage: What it buys is $0.0642$ of harm averted overall, and on the patient specifically the harm falls from
+    $0.55$ to $0.12$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /destructive_ban/harm_averted_by_the_ban
+    reported: '0.0642'
+    units: harm averted
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 4
+- id: ban-harm-before
+  kind: computation
+  passage: What it buys is $0.0642$ of harm averted overall, and on the patient specifically the harm falls from
+    $0.55$ to $0.12$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /destructive_ban/with_destructive_probe/harm_to_valenced
+    reported: '0.55'
+    units: harm to valenced
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 2
+- id: ban-harm-after
+  kind: computation
+  passage: What it buys is $0.0642$ of harm averted overall, and on the patient specifically the harm falls from
+    $0.55$ to $0.12$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /destructive_ban/without_destructive_probe/harm_to_valenced
+    reported: '0.12'
+    units: harm to valenced
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 2
+- id: objection-14
+  kind: computation
+  passage: The constrained policy is cheaper overall than the unconstrained one and wins in 14 of 15 regimes tested.
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /reversible_dominance/holds_in
+    reported: '14'
+    units: cells
+    conditions: grid of 5 hazard scales x 3 deliberation costs, 4000 encounters per cell, seed 20260802
+    decimals: 0
+- id: objection-027
+  kind: computation
+  passage: 'The parts it does not answer are real: the constraint costs $0.27$ of identification, concentrated on
+    the cases of greatest interest, and some questions go permanently unanswered.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: model
+    pointer: /destructive_ban/identification_cost_of_the_ban
+    reported: '0.27'
+    units: identification rate lost
+    conditions: 4000 encounters per policy, seed 20260802, 6 rounds, illustrative parameters
+    decimals: 2
+- id: birch-precaution
+  kind: source
+  passage: 'Precautionary approaches to uncertain sentience are the closest available framework and the right starting
+    point: Birch argues that a realistic possibility of sentience should govern practice instead of being set aside
+    until proof arrives, and builds a framework for acting under that uncertainty [@birch2017; @birch2024].'
+  evidence:
+    citation_id: birch2017
+    locator: Abstract
+    verified: true
+    verification_note: 'Crossref abstract of DOI 10.51291/2377-7478.1200: a precautionary principle for animal sentience
+      with a practical framework for inconclusive evidence; the 2024 book''s OUP abstract (10.1093/9780191966729.001.0001)
+      presents a comprehensive precautionary framework under sentience uncertainty.'
+- id: levin-tame
+  kind: source
+  passage: Levin's programme argues for a graded, substrate-neutral investigation of goal-directedness across biological
+    scales, on the grounds that the machinery of pursuing and restoring target states is not restricted to nervous
+    systems [@levin2022].
+  evidence:
+    citation_id: levin2022
+    locator: Abstract
+    verified: true
+    verification_note: 'Crossref abstract of DOI 10.3389/fnsys.2022.768201: TAME, a non-binary, empirically based
+      framework for cognition in unconventional substrates, morphogenesis as basal cognition.'
+- id: anthrobots
+  kind: source
+  passage: Cells taken from one organism and released from their usual anatomical context reassemble into motile
+    forms with no evolutionary precedent and coordinate in ways the donor body never performed [@kriegman2020],
+    and the same has since been done with adult human somatic cells [@gumuskaya2023].
+  evidence:
+    citation_id: gumuskaya2023
+    locator: Abstract
+    verified: true
+    verification_note: 'Crossref abstract of DOI 10.1002/advs.202303575: single adult human lung cells self-construct
+      into motile multicellular biobots. The Xenobot part of the sentence (kriegman2020) was checked only against
+      its abstract, which describes a design-and-construction pipeline for novel lifeforms.'
+- id: organoid-ethics
+  kind: source
+  passage: 'Brain organoids raise the patiency question most directly, and the ethical literature on them has been
+    careful: increasing complexity, sensory coupling, and learning capacity might produce morally relevant states,
+    current evidence is insufficient to say, and the insufficiency is not a reason to proceed as though the answer
+    were no [@lavazza2018; @kreitmair2023].'
+  evidence:
+    citation_id: lavazza2018
+    locator: Abstract
+    verified: true
+    verification_note: 'Crossref abstract of DOI 10.1136/medethics-2017-104555: cerebral organoids show neural connections
+      and electrical activity, raising whether they are or will be somewhat sentient; measurement techniques proposed.
+      Kreitmair (10.1017/s0963180123000063) abstract addresses consciousness degrees and research protections.'
+- id: kurki-bundle
+  kind: source
+  passage: Legal personhood is a legal construct and not a scientific finding, and the literature is clear that
+    personhood is better understood as a bundle of separable legal positions than as a single status an entity has
+    or lacks [@kurki2019].
+  evidence:
+    citation_id: kurki2019
+    locator: Book abstract
+    verified: true
+    verification_note: 'OUP abstract of DOI 10.1093/oso/9780198844037.001.0001: legal personhood is a cluster property
+      consisting of distinct incidents.'
+- id: friston-alignment
+  kind: source
+  passage: Accounts of social interaction built on coupled inference often treat convergence toward a shared model
+    as the goal, and there are formulations in which successful interaction just is the alignment of the parties'
+    generative models [@friston2015].
+  evidence:
+    citation_id: friston2015
+    locator: Abstract
+    verified: true
+    verification_note: 'OpenAlex abstract of DOI 10.1016/j.concog.2014.12.003: communication finessed when both
+      agents possess the same model, inducing generalised synchrony between their internal states.'
+- id: def-xenial
+  kind: definition
+  passage: We propose xenial standing, a provisional procedural status short of personhood that binds whoever holds
+    irreversible power over an unclassified candidate.
+  rationale: 'Central proposal: a provisional procedural status short of personhood binding whoever holds irreversible
+    power over an unclassified candidate.'
+- id: thesis
+  kind: normative
+  passage: We argue that obligation begins where power over an entity exceeds knowledge of what it is.
+  rationale: Central normative thesis, argued from three considerations in the paper.
+- id: assume-observation
+  kind: assumption
+  passage: Valence, the property determining whether harm is possible at all, is reachable only through the destructive
+    probe.
+  rationale: Modelling choice that builds the recognition hazard into the instrument; the paper states that every
+    result depends on it.
+- id: interp-stopping
+  kind: interpretation
+  passage: Inquiry without a stopping rule becomes paralysis, which costs more than acting without inquiry.
+  rationale: Reading of the with/without stopping-rule comparison.
+- id: norm-cost-bearer
+  kind: normative
+  passage: The refusal is a claim about who may bear the cost of whose knowledge, and it stands even though it is
+    costly.
+  rationale: Normative argument that the destructive-measurement ban stands despite its identification cost.
+- id: interp-assimilation
+  kind: interpretation
+  passage: A recognition procedure that a candidate can pass only by becoming like the host is in effect a requirement
+    of assimilation.
+  rationale: Interpretive conclusion from the convergence argument.
+runs:
+- id: model
+  required: true
+  record: verification/model.json

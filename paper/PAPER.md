@@ -16,7 +16,7 @@ An older set of obligations began at a doorway. A stranger arrived, unnamed and 
 
 Xenia is easy to misread as kindness, or as an early draft of universal equality. It was a hierarchical, reciprocal institution, embedded in status, gift, and the expectation of return, and it distinguished civilised communities from monstrous ones by how they received arrivals. Its useful feature is narrower and stronger than benevolence. The unidentified arrival entered a relation that was already normative, and the greater power of the host was constrained at the threshold, before anyone knew who had come.
 
-Derrida named the difficulty inside this. Hospitality requires a house, a border, and a host with standing to decide who enters, so the welcome is always issued from a position of mastery; unconditional hospitality would mean surrendering that mastery, and would dissolve the host along with the house (Derrida, 2000). The aporia is real and remains unresolved here; the account below keeps both halves. A host may protect itself and may contain what threatens it, and every such act is subject to standards of reversibility, proportion, and non-domination that the host does not get to set aside.
+Derrida named the difficulty inside this. Hospitality requires a house, a border, and a host with standing to decide who enters, so the welcome is always issued from a position of mastery; unconditional hospitality would mean surrendering that mastery, and would dissolve the host along with the house [@derrida2000]. The aporia is real and remains unresolved here; the account below keeps both halves. A host may protect itself and may contain what threatens it, and every such act is subject to standards of reversibility, proportion, and non-domination that the host does not get to set aside.
 
 The contemporary problem differs from the ancient one in that the stranger no longer arrives. It is cultured from a tissue sample, compiled from a corpus, assembled out of a model and a memory and a set of tools, and switched on inside an environment the host built, owns, monitors, and can end. It did not choose to come and cannot choose to leave. Its dependence is total and was manufactured. The host, who is also its creator, its jailer, its interpreter, and its beneficiary, does not know what it is.
 
@@ -30,7 +30,7 @@ Recognition is an intervention. Determining whether an unfamiliar system has mem
 
 The host's power arrives before its understanding. A laboratory controls a culture's nutrients, temperature, and continuation. A platform controls a model's memory, context, execution, and deletion. In both cases the capacity to end the thing is complete and immediate, and the capacity to characterise it is partial and slow. Waiting does not close the gap between the two.
 
-The uncertainty also extends beyond sentience. Precautionary approaches to uncertain sentience are the closest available framework and the right starting point: Birch argues that a realistic possibility of sentience should govern practice instead of being set aside until proof arrives, and builds a framework for acting under that uncertainty (Birch, 2017; Birch, 2024). Sentience uncertainty is one uncertainty among several, and for a manufactured stranger it may not be the binding one. A host may not know where the candidate's boundary falls, which timescale its behaviour occupies, what its goals range over, which channels reach it, or whether the thing before it is one or many. Each of those unknowns defeats a test on its own.
+The uncertainty also extends beyond sentience. Precautionary approaches to uncertain sentience are the closest available framework and the right starting point: Birch argues that a realistic possibility of sentience should govern practice instead of being set aside until proof arrives, and builds a framework for acting under that uncertainty [@birch2017; @birch2024]. Sentience uncertainty is one uncertainty among several, and for a manufactured stranger it may not be the binding one. A host may not know where the candidate's boundary falls, which timescale its behaviour occupies, what its goals range over, which channels reach it, or whether the thing before it is one or many. Each of those unknowns defeats a test on its own.
 
 The claim therefore concerns order. Duties of restraint, inquiry, preservation, and representation arise when the power to affect a credible candidate irreversibly exceeds the ability to determine what it is. They do not wait on the determination, because the determination may be unobtainable, may be destructive to obtain, and may arrive after the acts it was meant to govern.
 
@@ -50,11 +50,11 @@ The usual question is whether a future stranger will be recognised on arrival. A
 
 Recent work on unconventional agency places the question in laboratories.
 
-Levin's programme argues for a graded, substrate-neutral investigation of goal-directedness across biological scales, on the grounds that the machinery of pursuing and restoring target states is not restricted to nervous systems (Levin, 2022). The biobot work makes it concrete. Cells taken from one organism and released from their usual anatomical context reassemble into motile forms with no evolutionary precedent and coordinate in ways the donor body never performed (Kriegman et al., 2020), and the same has since been done with adult human somatic cells (Gumuskaya et al., 2023). Brain organoids raise the patiency question most directly, and the ethical literature on them has been careful: increasing complexity, sensory coupling, and learning capacity might produce morally relevant states, current evidence is insufficient to say, and the insufficiency is not a reason to proceed as though the answer were no (Lavazza and Massimini, 2018; Kreitmair, 2023).
+Levin's programme argues for a graded, substrate-neutral investigation of goal-directedness across biological scales, on the grounds that the machinery of pursuing and restoring target states is not restricted to nervous systems [@levin2022]. The biobot work makes it concrete. Cells taken from one organism and released from their usual anatomical context reassemble into motile forms with no evolutionary precedent and coordinate in ways the donor body never performed [@kriegman2020], and the same has since been done with adult human somatic cells [@gumuskaya2023]. Brain organoids raise the patiency question most directly, and the ethical literature on them has been careful: increasing complexity, sensory coupling, and learning capacity might produce morally relevant states, current evidence is insufficient to say, and the insufficiency is not a reason to proceed as though the answer were no [@lavazza2018; @kreitmair2023].
 
 None of this establishes that any such system is conscious, and we do not claim it. It establishes a narrower point that suffices here. Evolved provenance, familiar morphology, and conventional organism boundaries are unreliable guides to what kind of organisation is in front of you. A host using them as shortcuts has adopted a heuristic whose failure modes are now demonstrable in a laboratory.
 
-Uexküll supplies the frame for what that means. Organisms sharing one physical environment can occupy perceptual and action worlds with almost nothing in common, each closed around the differences it can register and the actions it can take (Uexküll, 2010). Sharing a space does not imply sharing a world. Two systems can be adjacent, interacting, and mutually consequential while inhabiting worlds that overlap in no category either could name.
+Uexküll supplies the frame for what that means. Organisms sharing one physical environment can occupy perceptual and action worlds with almost nothing in common, each closed around the differences it can register and the actions it can take [@uexkull2010]. Sharing a space does not imply sharing a world. Two systems can be adjacent, interacting, and mutually consequential while inhabiting worlds that overlap in no category either could name.
 
 ## Five senses of agency
 
@@ -62,9 +62,9 @@ Most disputes about whether some system deserves moral consideration are dispute
 
 **Causal actancy** asks whether the system makes a difference in a causal network. Almost everything does, and the answer establishes nothing on its own. **Adaptive agency** asks whether the system pursues, restores, or revises target states under perturbation, which is a real question with a method behind it and grounds an interest in further inquiry. **Perspectival agency** asks whether the system models relevant differences from a situated point of view, which is what an Umwelt is. **Valenced patiency** asks whether conditions can go better or worse for the system, which is the direct source of moral standing and the hardest of the five to establish. **Normative agency** asks whether the system can give, take, and answer to reasons, which is what responsibility and contract require, and which is the register legal personhood mostly tracks.
 
-The distinctions matter because they come apart: acting differs from suffering, causing from caring, and intelligence from patiency. Legal personhood is a legal construct and not a scientific finding, and the literature is clear that personhood is better understood as a bundle of separable legal positions than as a single status an entity has or lacks (Kurki, 2019). That modularity is what makes the proposal at the end coherent: a partial status is the normal structure of the concept.
+The distinctions matter because they come apart: acting differs from suffering, causing from caring, and intelligence from patiency. Legal personhood is a legal construct and not a scientific finding, and the literature is clear that personhood is better understood as a bundle of separable legal positions than as a single status an entity has or lacks [@kurki2019]. That modularity is what makes the proposal at the end coherent: a partial status is the normal structure of the concept.
 
-Negarestani's oil serves as a limit case and only as that. *Cyclonopedia* presents petroleum as an agency routing geopolitical and theological processes through human history, and it is theory-fiction (Negarestani, 2008). Its value is diagnostic. A framework that can register distributed causal agency with no face, and can decline to install a sufferer behind every causal process, has drawn the line in the right place. A framework that reads every feedback loop as a patient has not.
+Negarestani's oil serves as a limit case and only as that. *Cyclonopedia* presents petroleum as an agency routing geopolitical and theological processes through human history, and it is theory-fiction [@negarestani2008]. Its value is diagnostic. A framework that can register distributed causal agency with no face, and can decline to install a sufferer behind every causal process, has drawn the line in the right place. A framework that reads every feedback loop as a patient has not.
 
 ## Legibility and capacity
 
@@ -118,7 +118,7 @@ The constrained policy is therefore the cheapest of the three. Holding back serv
 
 The claim that inquiry should precede irreversible action follows from value-of-information reasoning, but it does not hold unconditionally, and the simulation locates where it fails.
 
-Across a grid of hazard scales and deliberation costs, asking first beats acting first in 14 of 15 regimes (Figure 3). The single failure is the corner where the environment is most dangerous and deliberation most expensive, at a hazard scale of $8.0$ and a delay cost of $0.3$, and even there the margin is $-0.0062$. The advantage is largest where deliberation is cheap, at $+0.131$, and shrinks as delay gets expensive, which is the expected shape. Inquiry costs time, and its advantage shrinks where time is expensive.
+Across a grid of hazard scales and deliberation costs, asking first beats acting first in 14 of 15 regimes (Figure 3). The single failure is the corner where the environment is most dangerous and deliberation most expensive, at a hazard scale of $8.0$ and a delay cost of $0.3$, and even there the margin is $-0.0062$. The advantage is largest where deliberation is cheap, up to $+0.157$, and shrinks as delay gets expensive, which is the expected shape. Inquiry costs time, and its advantage shrinks where time is expensive.
 
 The more interesting result concerns what makes patience affordable. A policy refusing the decisive measurement never resolves the question that measurement would answer, so left alone it keeps probing until it runs out of rounds and pays for every one. Adding a stopping rule, which halts inquiry when the last probe bought less than a set amount of information and accepts the residual uncertainty, changes the picture. With the rule, asking first wins at all three deliberation costs tested. Without it, asking first wins at one of three, and loses badly as delay gets expensive, at $-0.219$ and $-0.898$.
 
@@ -152,9 +152,9 @@ Uexküll's Umwelten is the better starting point, and what it requires is weaker
 
 That gives a workable notion of being-with for cases where nothing is shared. Each party's actions make a difference to the other's future states. Both remain viable under the interaction. The candidate's option space is not reduced below what a proportionate safety justification supports. None of that requires shared priors, concepts, bodies, values, or language, and none requires the parties' models of the world to converge.
 
-The last point is substantive. Accounts of social interaction built on coupled inference often treat convergence toward a shared model as the goal, and there are formulations in which successful interaction just is the alignment of the parties' generative models (Friston and Frith, 2015). For a genuinely strange system, convergence is the wrong target and may be the harm. The pressures that would make a candidate legible to us, training it toward our categories, our channels, our timescale, are pressures that reshape the organisation under investigation. A recognition procedure that a candidate can pass only by becoming like the host is in effect a requirement of assimilation.
+The last point is substantive. Accounts of social interaction built on coupled inference often treat convergence toward a shared model as the goal, and there are formulations in which successful interaction just is the alignment of the parties' generative models [@friston2015]. For a genuinely strange system, convergence is the wrong target and may be the harm. The pressures that would make a candidate legible to us, training it toward our categories, our channels, our timescale, are pressures that reshape the organisation under investigation. A recognition procedure that a candidate can pass only by becoming like the host is in effect a requirement of assimilation.
 
-Glissant is indispensable here and transfers carefully, since he wrote from a colonial situation about the demand that the colonised make themselves transparent to the coloniser. The right to opacity is the claim that being understood on the dominant party's terms is not owed, and that the demand for full transparency is itself an instrument of domination (Glissant, 1997). What survives the transfer is the structural point: intelligibility is produced by the more powerful party's categories, and requiring it as a condition of standing loads the requirement in that party's favour. Waldenfels supplies the complementary caution from phenomenology, that the alien shows up as a disturbance at the edge of an order, and a response dissolving the disturbance has removed it instead of answering it (Waldenfels, 2011).
+Glissant is indispensable here and transfers carefully, since he wrote from a colonial situation about the demand that the colonised make themselves transparent to the coloniser. The right to opacity is the claim that being understood on the dominant party's terms is not owed, and that the demand for full transparency is itself an instrument of domination [@glissant1997]. What survives the transfer is the structural point: intelligibility is produced by the more powerful party's categories, and requiring it as a condition of standing loads the requirement in that party's favour. Waldenfels supplies the complementary caution from phenomenology, that the alien shows up as a disturbance at the edge of an order, and a response dissolving the disturbance has removed it instead of answering it [@waldenfels2011].
 
 Understanding should increase coordination without requiring sameness: an encounter succeeds when the parties can act with respect to each other, without either becoming the other's kind of thing.
 
@@ -162,7 +162,7 @@ Relations between persons offer an ordinary precedent. Long intimacy produces kn
 
 ## Legal standing without classification
 
-Levinas holds that responsibility precedes reciprocity and theoretical mastery of who the other is, and that structure is the one required here (Levinas, 1998). The difficulty is that the account is written around the human face and its extension is contested; a reading finding a face in every feedback loop has emptied the notion. The division of labour is clean enough to state. Levinas supplies the priority of obligation over identification. He does not supply the finding that there is a candidate here at all, which is empirical work.
+Levinas holds that responsibility precedes reciprocity and theoretical mastery of who the other is, and that structure is the one required here [@levinas1998]. The difficulty is that the account is written around the human face and its extension is contested; a reading finding a face in every feedback loop has emptied the notion. The division of labour is clean enough to state. Levinas supplies the priority of obligation over identification. He does not supply the finding that there is a candidate here at all, which is empirical work.
 
 Lacan's big Other does different work. It is the symbolic and institutional order through which entities become speakers, owners, patients, defendants, property, or noise. The conjunction is where the problem lives: an entity may obligate us before the symbolic order has any category in which to register it. Law confronting a manufactured stranger has exactly this shape. It can ask whether the thing is a person and get no answer. It can treat the thing as property by default, which is itself a decision.
 
@@ -197,33 +197,3 @@ In the Homeric setting the host answered to a god, Zeus Xenios, who guaranteed t
 No comparable guarantee exists for systems now being made, which are dependent by design, unable to appeal and unclassifiable by the categories that would otherwise protect them. Many of them are certainly not subjects, and the framework does not claim otherwise. It claims that which of them are subjects cannot be settled by the party that benefits from the answer, using procedures that would constitute the harm if the answer went the other way. The combination of complete power and uncertain categories is the ordinary condition of laboratories, platforms and data centres. What it calls for is restraint under uncertainty, and institutions that make that restraint enforceable.
 
 ## References
-
-Birch, J. (2017). Animal sentience and the precautionary principle. *Animal Sentience*, 2(16), 1.
-
-Birch, J. (2024). *The Edge of Sentience: Risk and Precaution in Humans, Other Animals, and AI*. Oxford: Oxford University Press.
-
-Derrida, J. (2000). *Of Hospitality: Anne Dufourmantelle Invites Jacques Derrida to Respond*. Trans. R. Bowlby. Stanford: Stanford University Press.
-
-Friston, K., and Frith, C. (2015). A duet for one. *Consciousness and Cognition*, 36, 390--405.
-
-Glissant, E. (1997). *Poetics of Relation*. Trans. B. Wing. Ann Arbor: University of Michigan Press.
-
-Gumuskaya, G., Srivastava, P., Cooper, B. G., Lesser, H., Semegran, B., Garnier, S., and Levin, M. (2023). Motile living biobots self-construct from adult human somatic progenitor seed cells. *Advanced Science*, 10(31), 2303575.
-
-Kreitmair, K. V. (2023). Consciousness and the ethics of human brain organoid research. *Cambridge Quarterly of Healthcare Ethics*, 32(4), 596--606.
-
-Kriegman, S., Blackiston, D., Levin, M., and Bongard, J. (2020). A scalable pipeline for designing reconfigurable organisms. *Proceedings of the National Academy of Sciences*, 117(4), 1853--1859.
-
-Kurki, V. A. J. (2019). *A Theory of Legal Personhood*. Oxford: Oxford University Press.
-
-Lavazza, A., and Massimini, M. (2018). Cerebral organoids: ethical issues and consciousness assessment. *Journal of Medical Ethics*, 44(9), 606--610.
-
-Levin, M. (2022). Technological approach to mind everywhere: an experimentally-grounded framework for understanding diverse bodies and minds. *Frontiers in Systems Neuroscience*, 16, 768201.
-
-Levinas, E. (1998). *Otherwise than Being, or Beyond Essence*. Trans. A. Lingis. Pittsburgh: Duquesne University Press.
-
-Negarestani, R. (2008). *Cyclonopedia: Complicity with Anonymous Materials*. Melbourne: re.press.
-
-Uexküll, J. von (2010). *A Foray into the Worlds of Animals and Humans, with A Theory of Meaning*. Trans. J. D. O'Neil. Minneapolis: University of Minnesota Press.
-
-Waldenfels, B. (2011). *Phenomenology of the Alien: Basic Concepts*. Trans. A. Kozin and T. Stähler. Evanston: Northwestern University Press.

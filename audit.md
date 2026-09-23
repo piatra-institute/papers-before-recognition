@@ -1,5 +1,17 @@
 # Audit
 
+## 2026-09-23 — structured-evidence migration
+
+Structured-evidence migration (references and claims).
+- references.yaml: 15 CSL entries. 11 with DOIs resolved through doi.org content negotiation (8 matched automatically in Crossref; birch2024, kurki2019, waldenfels2011 assigned by hand from Crossref searches). 4 books entered by hand: derrida2000, levinas1998, negarestani2008, uexkull2010.
+- Correction (numeric): "The advantage is largest where deliberation is cheap, at +0.131" -> "up to +0.157". +0.131 is the cheap-delay cell at hazard scale 0.5; the largest advantage in the grid is +0.157 (/reversible_dominance/grid/12/dominance, hazard 8.0, delay 0.02).
+- Correction: gumuskaya2023 volume/issue 10(31) -> 11(4), article 2303575 (DOI record; online November 2023).
+- Correction: kreitmair2023 pages 596-606 -> 518-528 (DOI record).
+- claims.yaml: 59 claims (47 computation, 6 source, 1 definition, 1 assumption, 2 interpretation, 2 normative). Every simulation number in the abstract and body is bound to simulation/output/results.json (run model); source claims checked against Crossref/OpenAlex abstracts and OUP book records.
+- Source statements not bound: Derrida (2000) on the aporia of hospitality; Uexküll (2010) Umwelten; Negarestani (2008); Glissant (1997) right to opacity; Waldenfels (2011); Levinas (1998) (books, no abstract retrieved); Kriegman et al. (2020) only partly supported by its abstract.
+- Execution receipt: run id model (uv run python run_all.py); results.json reproduced unchanged; 10 checks pass.
+- metadata claims_target: claim-ledger.
+
 ## 2026-09-23 — prose revision
 
 Prose revised against the house standards. Headings made descriptive (Introduction, Obligation before recognition, Manufactured dependence, Unconventional agency in the laboratory, Five senses of agency, Legibility and capacity, Three encounter policies, Simulation design, Results, Inquiry before action and its limits, The cost of refusing destructive measurement, Limitations of the simulation, Relation without shared understanding, Legal standing without classification, Objections, Conclusion).

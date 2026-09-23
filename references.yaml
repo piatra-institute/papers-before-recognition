@@ -1,0 +1,236 @@
+# CSL references with stable IDs; cite with Pandoc [@id] syntax.
+# Migrated from the legacy inline bibliography. Entries with a DOI were resolved through doi.org
+# content negotiation (CSL-JSON) and checked for year and title; others were matched in Crossref
+# or entered by hand. Provenance per entry is in sources.md.
+references:
+- id: birch2017
+  type: article-journal
+  title: Animal sentience and the precautionary principle
+  author:
+  - given: Jonathan
+    family: Birch
+  container-title: Animal Sentience
+  volume: '2'
+  issue: '16'
+  DOI: 10.51291/2377-7478.1200
+  issued:
+    date-parts:
+    - - 2017
+  page: '1'
+- id: birch2024
+  type: book
+  title: 'The Edge of Sentience: Risk and Precaution in Humans, Other Animals, and AI'
+  author:
+  - given: Jonathan
+    family: Birch
+  publisher: Oxford University Press
+  DOI: 10.1093/9780191966729.001.0001
+  URL: http://dx.doi.org/10.1093/9780191966729.001.0001
+  issued:
+    date-parts:
+    - - 2024
+  publisher-place: Oxford
+- id: derrida2000
+  type: book
+  title: 'Of Hospitality: Anne Dufourmantelle Invites Jacques Derrida to Respond'
+  author:
+  - family: Derrida
+    given: Jacques
+  translator:
+  - family: Bowlby
+    given: Rachel
+  publisher: Stanford University Press
+  publisher-place: Stanford, CA
+  issued:
+    date-parts:
+    - - 2000
+- id: friston2015
+  type: article-journal
+  title: A Duet for One
+  author:
+  - given: Karl
+    family: Friston
+  - given: Christopher
+    family: Frith
+  container-title: Consciousness and Cognition
+  volume: '36'
+  page: 390-405
+  DOI: 10.1016/j.concog.2014.12.003
+  issued:
+    date-parts:
+    - - 2015
+- id: glissant1997
+  type: book
+  title: Poetics of Relation
+  author:
+  - family: Glissant
+    given: Édouard
+  publisher: University of Michigan Press
+  DOI: 10.3998/mpub.10257
+  issued:
+    date-parts:
+    - - 1997
+  translator:
+  - family: Wing
+    given: Betsy
+  publisher-place: Ann Arbor
+- id: gumuskaya2023
+  type: article-journal
+  title: Motile Living Biobots Self-Construct from Adult Human Somatic Progenitor Seed Cells
+  author:
+  - given: Gizem
+    family: Gumuskaya
+  - given: Pranjal
+    family: Srivastava
+  - given: Ben G.
+    family: Cooper
+  - given: Hannah
+    family: Lesser
+  - given: Ben
+    family: Semegran
+  - given: Simon
+    family: Garnier
+  - given: Michael
+    family: Levin
+  container-title: Advanced Science
+  volume: '11'
+  issue: '4'
+  DOI: 10.1002/advs.202303575
+  issued:
+    date-parts:
+    - - 2023
+  page: '2303575'
+- id: kreitmair2023
+  type: article-journal
+  title: Consciousness and the Ethics of Human Brain Organoid Research
+  author:
+  - given: Karola
+    family: Kreitmair
+  container-title: Cambridge Quarterly of Healthcare Ethics
+  volume: '32'
+  issue: '4'
+  page: 518-528
+  DOI: 10.1017/s0963180123000063
+  issued:
+    date-parts:
+    - - 2023
+- id: kriegman2020
+  type: article-journal
+  title: A scalable pipeline for designing reconfigurable organisms
+  author:
+  - given: Sam
+    family: Kriegman
+  - given: Douglas
+    family: Blackiston
+  - given: Michael
+    family: Levin
+  - given: Josh
+    family: Bongard
+  container-title: Proceedings of the National Academy of Sciences
+  volume: '117'
+  issue: '4'
+  page: 1853-1859
+  DOI: 10.1073/pnas.1910837117
+  issued:
+    date-parts:
+    - - 2020
+- id: kurki2019
+  type: book
+  title: A Theory of Legal Personhood
+  author:
+  - family: Kurki
+    given: Visa A. J.
+  publisher: Oxford University Press
+  DOI: 10.1093/oso/9780198844037.001.0001
+  URL: http://dx.doi.org/10.1093/oso/9780198844037.001.0001
+  issued:
+    date-parts:
+    - - 2019
+  publisher-place: Oxford
+- id: lavazza2018
+  type: article-journal
+  title: 'Cerebral organoids: ethical issues and consciousness assessment'
+  author:
+  - given: Andrea
+    family: Lavazza
+  - given: Marcello
+    family: Massimini
+  container-title: Journal of Medical Ethics
+  volume: '44'
+  issue: '9'
+  page: 606-610
+  DOI: 10.1136/medethics-2017-104555
+  issued:
+    date-parts:
+    - - 2018
+- id: levin2022
+  type: article-journal
+  title: 'Technological Approach to Mind Everywhere: An Experimentally-Grounded Framework for Understanding
+    Diverse Bodies and Minds'
+  author:
+  - given: Michael
+    family: Levin
+  container-title: Frontiers in Systems Neuroscience
+  volume: '16'
+  DOI: 10.3389/fnsys.2022.768201
+  issued:
+    date-parts:
+    - - 2022
+  page: '768201'
+- id: levinas1998
+  type: book
+  title: Otherwise than Being, or Beyond Essence
+  author:
+  - family: Levinas
+    given: Emmanuel
+  translator:
+  - family: Lingis
+    given: Alphonso
+  publisher: Duquesne University Press
+  publisher-place: Pittsburgh
+  issued:
+    date-parts:
+    - - 1998
+- id: negarestani2008
+  type: book
+  title: 'Cyclonopedia: Complicity with Anonymous Materials'
+  author:
+  - family: Negarestani
+    given: Reza
+  publisher: re.press
+  publisher-place: Melbourne
+  issued:
+    date-parts:
+    - - 2008
+- id: uexkull2010
+  type: book
+  title: A Foray into the Worlds of Animals and Humans, with A Theory of Meaning
+  author:
+  - family: Uexküll
+    given: Jakob von
+  translator:
+  - family: O'Neil
+    given: Joseph D.
+  publisher: University of Minnesota Press
+  publisher-place: Minneapolis
+  issued:
+    date-parts:
+    - - 2010
+- id: waldenfels2011
+  type: book
+  title: 'Phenomenology of the Alien: Basic Concepts'
+  author:
+  - given: Bernhard
+    family: Waldenfels
+  publisher: Northwestern University Press
+  DOI: 10.2307/j.ctv47wfh3
+  URL: http://dx.doi.org/10.2307/j.ctv47wfh3
+  issued:
+    date-parts:
+    - - 2011
+  translator:
+  - family: Kozin
+    given: Alexander
+  - family: Stähler
+    given: Tanja
+  publisher-place: Evanston, IL
